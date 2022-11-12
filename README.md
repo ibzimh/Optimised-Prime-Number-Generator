@@ -5,7 +5,7 @@ Testing different prime number generator algorithms and primality tests. (Under 
 Naive Generator - Naive/Basic Implementation of Prime Number Generator <br />
 Classical Generator - Using some basic Number Theory theorems to make improvements to the Naive Generator <br />
 Optimised Generator - Using further number theory concepts to minimise random guessing and maximise accuracy <br />
-Composite Test - Miller Rabin Deterministic Composite Test (more tests to be added soon!) <br />
+Composite Test - Miller-Rabin Deterministic Composite Test (more tests to be added soon!) <br />
 PrimeHelpers - List of functions to used in the generators. <br />
 HelperFunctions - List of useful array (and non-array) functions to avoid redundancy and make code cleaner <br />
 
