@@ -2,13 +2,14 @@
 
 Testing different prime number generator algorithms and primality tests. (Under Construction)
 
-$$\pi$$
+Naive Generator - Naive/Basic Implementation of Prime Number Generator 
+Classical Generator - Using some basic Number Theory theorems to make improvements to the Naive Generator 
+Optimised Generator - Using further number theory concepts to minimise random guessing and maximise accuracy 
+Composite Test - Miller Rabin Deterministic Composite Test (more tests to be added soon!)
+PrimeHelpers - List of functions to used in the generators. 
+HelperFunctions - List of useful array (and non-array) functions to avoid redundancy and make code cleaner 
 
-Let $\mathit{\Pi} = \prod_{i=1}^{k}{p_{i}^{\delta_{i}}}$ be the $n$-bit product of the first $k$ primes with some small exponents $\delta_{i}$, and let $\Delta = \textrm{max}_{i}\delta_{i}$. We denote by $x = ( x_{1},\dots,x_{k} ) _{\equiv}$ the modular representation of $x \in \mathbb{Z}_{\mathit{\Pi}}$, i.e., $x_{i} = x \bmod \ p_{i}^{\delta_{i}}$. For $i = 1, \dots, k$, one then defines  $\theta_{i} = (0, \dots, 1, \dots, 0)_{\equiv}$ where the "$1$" stands for the $i^{\text{th}}$ position. It is obvious to see that we always have:
-$$\forall x \in \mathbb{Z}_{\mathit{\Pi}}\qquad x = \sum_{i=1}^{k}x_{i} \theta_{i} \bmod{\mathit{\Pi}}$$ 
-[some proof/reasoning here for the calculations below]
-$$\begin{align}\forall x \in \mathbb{Z}_{\mathit{\Pi}} \qquad \forall x \in \mathbb{Z}^{*}_{\mathit{\Pi}} 
-&\Longleftrightarrow x_{i} \in \mathbb{Z}^{*}_{p_{i}^{\delta_{i}}} \\
-&\Longleftrightarrow x_{i}^{\delta_{i}} \not\equiv 0 \pmod{ p_{i}^{\delta_{i}}} \\
-&\Longleftrightarrow x_{i}^{\delta_{i}} \theta_{i} \not\equiv 0 \pmod{\mathit{\Pi}} \;\text{for $i = 1, \dots, k$}
-\end{align}$$ 
+Misc.:
+Primes1.txt - List of primes up until $2^{23}$
+MakeListOfPrimes - Imports Primes.txt
+CodeDump - Temporary local repository of the code. 
