@@ -9,7 +9,7 @@ Composite Test - Miller-Rabin Deterministic Composite Test (more tests to be add
 PrimeHelpers - List of functions to used in the generators. <br />
 HelperFunctions - List of useful array (and non-array) functions to avoid redundancy and make code cleaner <br />
 
- $\mathit{\Pi} = \prod_{i=1}^{k}{p_{i}^{\delta_{i}}}$
+ $$\mathit{\Pi} = \prod_{i=1}^{k}{p_{i}^{\delta_{i}}}$$
 
 Misc.: <br />
 Primes1.txt - List of primes up until $2^{23}$ <br />
