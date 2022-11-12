@@ -4,7 +4,7 @@ def reduce(arr, func, init):
     acc = func(acc, elem)
   return acc
 
-def reduceind(arr, func, init):
+def reduce_ind(arr, func, init):
   acc = init
   for ind, elem in enumerate(arr):
     acc = func(acc, elem, ind)
@@ -16,7 +16,7 @@ def map(arr, func):
     ret.append(func(elem))
   return ret
 
-def mapind(arr, func):
+def map_ind(arr, func):
   ret = []
   for ind, elem in enumerate(arr):
     ret.append(func(elem, ind))
