@@ -1,14 +1,5 @@
 # Optimised-Prime-Number-Generator
 
-Testing different prime number generator algorithms and primality tests. (Under Construction)
-
-Naive Generator - Naive/Basic Implementation of Prime Number Generator <br />
-Classical Generator - Using some basic Number Theory theorems to make improvements to the Naive Generator <br />
-Optimised Generator - Using further number theory concepts to minimise random guessing and maximise accuracy <br />
-Composite Test - Miller-Rabin Deterministic Composite Test (more tests to be added soon!) <br />
-PrimeHelpers - List of functions to used in the generators. <br />
-HelperFunctions - List of useful array (and non-array) functions to avoid redundancy and make code cleaner <br />
-
 Optimised Generator difference from the classical generator: <br />
 
 (the markdown in brackets, i.e., (`name`) refer to the variable name in the code) <br />
@@ -24,7 +15,18 @@ $$ ( \alpha_{i}^{\delta_{i}} \cdot \theta_{i} \ ( \mathrm{mod} ) \ \mathit{\Pi} 
 
 Where $c$ is an invertible number modulo $\mathit{\Pi}$ <br />
 
-Misc.: <br />
+Now, like the classical generators, we generate $c$'s until we find a prime. (To be updated). <br />
+
+Files: <br />
+
+Naive Generator - Naive/Basic Implementation of Prime Number Generator <br />
+Classical Generator - Using some basic Number Theory theorems to make improvements to the Naive Generator <br />
+Optimised Generator - Using further number theory concepts to minimise random guessing and maximise accuracy <br />
+Composite Test - Miller-Rabin Deterministic Composite Test (more tests to be added soon!) <br />
+PrimeHelpers - List of functions to used in the generators. <br />
+HelperFunctions - List of useful array (and non-array) functions to avoid redundancy and make code cleaner <br />
+
+Misc. Files: <br />
 Primes1.txt - List of primes up until $2^{23}$ <br />
 MakeListOfPrimes - Imports Primes.txt <br />
 CodeDump - Temporary local repository of the code. <br />
