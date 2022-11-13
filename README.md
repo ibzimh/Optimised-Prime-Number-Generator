@@ -9,9 +9,13 @@ Composite Test - Miller-Rabin Deterministic Composite Test (more tests to be add
 PrimeHelpers - List of functions to used in the generators. <br />
 HelperFunctions - List of useful array (and non-array) functions to avoid redundancy and make code cleaner <br />
 
-$\delta_{i}$ (named `delta` in the code) is a sequence of small exponents, $p_{i}$ is a sequence of small prime numbers, and $t = C \cdot max | \ p_{i}^{\delta_{i}} \ | and $\theta$ is a sequence of $\theta_{i}$'s where each $\theta_{i}$ is a sequence of $0$'s with a $1$ at the $i^{\text{th}}$ position.
+the markdown in brackets, i.e., (`name`) refer to the variable name in the code <br />
 
-$$\mathit{\Pi} = \prod_{i=1}^{k}{p_{i}^{\delta_{i}}}$$ 
+To minimise random guessing we select numbers with certain prime-like properties. <br />
+
+$\delta$ (`delta`) is a sequence of small exponents, $p$ (`p`) is a sequence of small prime numbers, $t = C \cdot max | \ p_{i}^{\delta_{i}} \ | (`t`, `C`), $\alpha$ is a sequence of sequences (`alfi`) of random numbers and $\theta$ (`theta`) is a sequence of $\theta_{i}$'s (`theti`)  which are sequences of $0$'s with a $1$ at the $i^{\text{th}}$ position.
+
+$\mathit{\Pi} = \prod_{i=1}^{k}{p_{i}^{\delta_{i}}}$ (`prod`)
 
 Misc.: <br />
 Primes1.txt - List of primes up until $2^{23}$ <br />
