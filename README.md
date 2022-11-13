@@ -18,7 +18,7 @@ $c$ (`c`) is the invertible number to return, $\delta$ (`delta`) is a sequence o
 $$ \mathit{\Pi} = \prod_{i=1}^{k}{p_{i}^{\delta_{i}}} $$
 
 $$ ( \alpha_{i}^{\delta_{i}} \cdot \theta_{i} \ ( \mathrm{mod} ) \ \mathit{\Pi} ) \neq 0 \ \longrightarrow \ 
-c + \{  \}$$ 
+\sum^{n} _ {i=1}{a}+ \{  \}$$ 
 
 
 Misc.: <br />
