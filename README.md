@@ -13,7 +13,7 @@ Optimised Generator difference from the classical generator: <br />
 
 (the markdown in brackets, i.e., (`name`) refer to the variable name in the code) <br />
 
-We try to minimise 'randomly' guessing candidates for primes by selecting numbers with certain prime-like properties. <br />
+We try to minimise 'randomly' guessing candidates (c) for primes by selecting numbers with certain prime-like properties. <br />
 
 $\delta$ (`delta`) is a sequence of small exponents, $p$ (`p`) is a sequence of small prime numbers, $t = C \cdot max | \ p_{i}^{\delta_{i}} |$ (`t`, `C`), $\alpha$ is a sequence of sequences (`alfi`) of random numbers and $\theta$ (`theta`) is a sequence of $\theta_{i}$'s (`theti`)  which are sequences of $0$'s with a $1$ at the $i^{\text{th}}$ position.
 
