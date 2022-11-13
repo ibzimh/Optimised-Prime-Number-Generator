@@ -9,7 +9,7 @@ Composite Test - Miller-Rabin Deterministic Composite Test (more tests to be add
 PrimeHelpers - List of functions to used in the generators. <br />
 HelperFunctions - List of useful array (and non-array) functions to avoid redundancy and make code cleaner <br />
 
-$\delta_{i}$ is a sequence of small exponents, $p_{i}$ is a sequence of small prime numbers, and $t = C \cdot max | \ p_{i}^{\delta_{i}} \ |$
+$\delta_{i}$ (named `delta` in the code) is a sequence of small exponents, $p_{i}$ is a sequence of small prime numbers, and $t = C \cdot max | \ p_{i}^{\delta_{i}} \ | and $\theta_{i} = (0, \dots, 1, \dots, 0)_{\equiv}$ where the "$1$" stands for the $i^{\text{th}}$ position.
 
  $$\mathit{\Pi} = \prod_{i=1}^{k}{p_{i}^{\delta_{i}}}$$ 
 
