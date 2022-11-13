@@ -17,7 +17,9 @@ $\delta$ (`delta`) is a sequence of small exponents, $p$ (`p`) is a sequence of 
 
 $$ \mathit{\Pi} = \prod_{i=1}^{k}{p_{i}^{\delta_{i}}} $$
 
-$$ \prod_{i=1}^{k}{ \alpha_{i}^{\delta_{i}} \cdot \theta_{i} } $$ 
+If <br />
+$$ \alpha_{i}^{\delta_{i}} \cdot \theta_{i} \mathbb{mod} \mathit{\Pi} \neq 0 $$ 
+
 
 Misc.: <br />
 Primes1.txt - List of primes up until $2^{23}$ <br />
