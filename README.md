@@ -9,9 +9,11 @@ Composite Test - Miller-Rabin Deterministic Composite Test (more tests to be add
 PrimeHelpers - List of functions to used in the generators. <br />
 HelperFunctions - List of useful array (and non-array) functions to avoid redundancy and make code cleaner <br />
 
-the markdown in brackets, i.e., (`name`) refer to the variable name in the code <br />
+Optimised Generator difference from the classical generator: <br />
 
-To minimise random guessing we select numbers with certain prime-like properties. <br />
+(the markdown in brackets, i.e., (`name`) refer to the variable name in the code) <br />
+
+We try to minimise 'randomly' guessing candidates for primes by selecting numbers with certain prime-like properties. <br />
 
 $\delta$ (`delta`) is a sequence of small exponents, $p$ (`p`) is a sequence of small prime numbers, $t = C \cdot max | \ p_{i}^{\delta_{i}} |$ (`t`, `C`), $\alpha$ is a sequence of sequences (`alfi`) of random numbers and $\theta$ (`theta`) is a sequence of $\theta_{i}$'s (`theti`)  which are sequences of $0$'s with a $1$ at the $i^{\text{th}}$ position.
 
@@ -20,8 +22,7 @@ $$ \mathit{\Pi} = \prod_{i=1}^{k}{p_{i}^{\delta_{i}}} $$
 $$ ( \alpha_{i}^{\delta_{i}} \cdot \theta_{i} \ ( \mathrm{mod} ) \ \mathit{\Pi} \neq 0 ) \ \longrightarrow \ c = 
 \sum^{n} _ {i=1}{\alpha_{i}^{\delta_{i}} \cdot \theta_{i} \ ( \mathrm{mod} ) \ \mathit{\Pi}} \{  \}$$ 
 
-Where $c$ is an invertible number modulo $\mathit{\Pi}$
-
+Where $c$ is an invertible number modulo $\mathit{\Pi}$ <br />
 
 Misc.: <br />
 Primes1.txt - List of primes up until $2^{23}$ <br />
