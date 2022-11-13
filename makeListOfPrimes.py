@@ -1,7 +1,7 @@
 import helperFunctions as arr
 
 def writeprimes(n):
-  with open('C:/Users/ibzim/OneDrive - University of Massachusetts/Computer Science/Python/Prime Project/primes.txt', 'w') as f:
+  with open('PathOfTheFile/primes.txt', 'w') as f:
     f.write(str(2))
     f.write('\n')
     p = 3
@@ -20,7 +20,7 @@ def writeprimes(n):
       p+=2
 
 def import_list_of_primes():
-  with open('C:/Users/ibzim/OneDrive - University of Massachusetts/Computer Science/Python/Prime Project/primes1.txt', 'r') as f:
+  with open('PathOfTheFile/primes1.txt', 'r') as f:
     return arr.map(str.split(f.read()), lambda s: int(s))
 
 listofprimes = import_list_of_primes()
