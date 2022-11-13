@@ -13,11 +13,11 @@ the markdown in brackets, i.e., (`name`) refer to the variable name in the code 
 
 To minimise random guessing we select numbers with certain prime-like properties. <br />
 
-$\delta$ (`delta`) is a sequence of small exponents, $p$ (`p`) is a sequence of small prime numbers, $t = C \cdot max | \ p_{i}^{\delta_{i}} |$ (`t`, `C`), $\alpha$ is a sequence of sequences (`alfi`) of random numbers and $\theta$ (`theta`) is a sequence of $\theta_{i}$'s (`theti`)  which are sequences of $0$'s with a $1$ at the $i^{\text{th}}$ position.
+$c$ (`c`) is the invertible number to return, $\delta$ (`delta`) is a sequence of small exponents, $p$ (`p`) is a sequence of small prime numbers, $t = C \cdot max | \ p_{i}^{\delta_{i}} |$ (`t`, `C`), $\alpha$ is a sequence of sequences (`alfi`) of random numbers and $\theta$ (`theta`) is a sequence of $\theta_{i}$'s (`theti`)  which are sequences of $0$'s with a $1$ at the $i^{\text{th}}$ position.
 
 $$ \mathit{\Pi} = \prod_{i=1}^{k}{p_{i}^{\delta_{i}}} $$
 
-$$ \alpha_{i}^{\delta_{i}} \cdot \theta_{i} \ ( \mathrm{mod} ) \ \mathit{\Pi} \neq 0 \rightarrow $$ 
+$$ ( \alpha_{i}^{\delta_{i}} \cdot \theta_{i} \ ( \mathrm{mod} ) \ \mathit{\Pi} ) \neq 0 \rightarrow $$ 
 
 
 Misc.: <br />
