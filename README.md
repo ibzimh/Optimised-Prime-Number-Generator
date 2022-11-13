@@ -1,6 +1,6 @@
 # Optimised-Prime-Number-Generator
 
-Optimised Generator difference from the classical generator: <br />
+What is the difference between the Optimised Generator and the Classical Generator? <br />
 
 (the markdown in brackets, i.e., (`name`) refer to the variable name in the code) <br />
 
