@@ -17,8 +17,7 @@ $\delta$ (`delta`) is a sequence of small exponents, $p$ (`p`) is a sequence of 
 
 $$ \mathit{\Pi} = \prod_{i=1}^{k}{p_{i}^{\delta_{i}}} $$
 
-If <br />
-$$ \alpha_{i}^{\delta_{i}} \cdot \theta_{i} \mathbb{mod} \mathit{\Pi} \neq 0 $$ 
+$$ \mathrm{if} \alpha_{i}^{\delta_{i}} \cdot \theta_{i} \mathbb{mod} \mathit{\Pi} \neq 0 $$ 
 
 
 Misc.: <br />
