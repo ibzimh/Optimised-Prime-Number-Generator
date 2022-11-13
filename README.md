@@ -15,6 +15,8 @@ $$ ( \alpha_{i}^{\delta_{i}} \cdot \theta_{i} \ ( \mathrm{mod} ) \ \mathit{\Pi} 
 
 Where $c$ is an invertible number modulo $\mathit{\Pi}$ <br />
 
+(This is as a result of the Chinese Remainder Theorem)
+
 Now, like the classical generators, we generate $c$'s until we find a prime. (To be updated). <br />
 
 Files: <br />
